@@ -2,7 +2,7 @@
   "name": "Price Tracker",
   "short_name": "PriceTrack",
   "description": "Track and monitor purchase pricing with alerts",
-  "start_url": "./price-tracker.html",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0a0a18",

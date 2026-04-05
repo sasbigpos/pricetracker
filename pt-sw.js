@@ -1,5 +1,5 @@
 const CACHE = "price-tracker-v1";
-const ASSETS = ["./price-tracker.html", "./pt-manifest.json", "./pt-icon-192.png", "./pt-icon-512.png"];
+const ASSETS = ["./", "./index.html", "./pt-manifest.json", "./pt-icon-192.png", "./pt-icon-512.png"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
